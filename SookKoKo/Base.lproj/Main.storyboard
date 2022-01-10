@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VGG-gl-pgi">
+    <device id="retina6_5" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InForLoA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OPG-pB-d0W">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mqY-TO-9M0">
+                                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mtI-iG-TiM">
+                                        <rect key="frame" x="312" y="172" width="272" height="70"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5a4-Sn-B3B">
+                                                <rect key="frame" x="0.0" y="0.0" width="272" height="30"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="asdasdasdsaddsdasdasdasdasdasdasd"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0HS-U4-s5T">
+                                                <rect key="frame" x="0.0" y="40" width="272" height="30"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="asd"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="0HS-U4-s5T" firstAttribute="leading" secondItem="mtI-iG-TiM" secondAttribute="leading" id="0yb-5U-zNQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="0HS-U4-s5T" secondAttribute="trailing" id="6Af-yM-mmb"/>
+                                            <constraint firstAttribute="bottom" secondItem="0HS-U4-s5T" secondAttribute="bottom" id="8bz-zI-Irs"/>
+                                            <constraint firstItem="5a4-Sn-B3B" firstAttribute="top" secondItem="mtI-iG-TiM" secondAttribute="top" id="S82-Q8-aXH"/>
+                                            <constraint firstAttribute="trailing" secondItem="5a4-Sn-B3B" secondAttribute="trailing" id="hgk-7G-yCN"/>
+                                            <constraint firstItem="5a4-Sn-B3B" firstAttribute="leading" secondItem="mtI-iG-TiM" secondAttribute="leading" id="ona-jk-bN3"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="mtI-iG-TiM" firstAttribute="centerX" secondItem="OPG-pB-d0W" secondAttribute="centerX" id="0v8-hq-KQB"/>
+                                    <constraint firstItem="mqY-TO-9M0" firstAttribute="top" secondItem="OPG-pB-d0W" secondAttribute="top" id="GWo-Ml-rAo"/>
+                                    <constraint firstAttribute="trailing" secondItem="mqY-TO-9M0" secondAttribute="trailing" id="Shb-b5-RT1"/>
+                                    <constraint firstAttribute="bottom" secondItem="mqY-TO-9M0" secondAttribute="bottom" id="TVK-cO-Pox"/>
+                                    <constraint firstItem="mqY-TO-9M0" firstAttribute="leading" secondItem="OPG-pB-d0W" secondAttribute="leading" id="bLY-Qx-BVB"/>
+                                    <constraint firstItem="mtI-iG-TiM" firstAttribute="centerY" secondItem="OPG-pB-d0W" secondAttribute="centerY" id="oj9-yG-YUX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="OPG-pB-d0W" secondAttribute="trailing" id="8Fp-QO-Eqn"/>
+                            <constraint firstAttribute="bottom" secondItem="OPG-pB-d0W" secondAttribute="bottom" id="HcU-LB-T09"/>
+                            <constraint firstItem="OPG-pB-d0W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PB8-gH-YcJ"/>
+                            <constraint firstItem="OPG-pB-d0W" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ccj-jR-V0o"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9DR-rx-aG4"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="mqY-TO-9M0" id="jeA-bw-gtn"/>
+                        <outlet property="statuePatternButton" destination="5a4-Sn-B3B" id="pO1-mO-d1I"/>
+                        <outlet property="swordPatternButton" destination="0HS-U4-s5T" id="Zf7-UJ-mG8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="788.16964285714278" y="82.608695652173921"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vox-f5-8ma">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VGG-gl-pgi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="A5C-4v-1yX">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="OJL-KL-npD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YwI-Ny-jox" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44.866071428571423" y="82.608695652173921"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="lI2-qW-qwg">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="D76-fs-Z7p" customClass="DetailViewController" customModule="InForLoA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dpf-bX-0nf">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2df-oS-Dcn">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2sa-tH-Of2">
+                                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                    </imageView>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYs-vq-zIm">
+                                        <rect key="frame" x="553" y="227.66666666666666" width="103.66666666666663" height="103.66666666666666"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="biackiss_gate3_sword"/>
+                                    </button>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufu-Ld-DBQ">
+                                        <rect key="frame" x="239.33333333333334" y="227.66666666666666" width="103.66666666666666" height="103.66666666666666"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="biackiss_gate3_sword"/>
+                                    </button>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9JC-nJ-0uO">
+                                        <rect key="frame" x="396.33333333333331" y="10.333333333333336" width="103.33333333333331" height="103.66666666666666"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="9JC-nJ-0uO" secondAttribute="height" multiplier="1:1" id="ksa-p4-E7e"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="biackiss_gate3_sword"/>
+                                    </button>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4B-Jm-P87">
+                                        <rect key="frame" x="82.666666666666686" y="155.33333333333334" width="103.33333333333331" height="103.33333333333334"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="G4B-Jm-P87" secondAttribute="height" multiplier="1:1" id="Tai-pO-qeJ"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="biackiss_gate3_sword"/>
+                                    </button>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ti2-EJ-rlH">
+                                        <rect key="frame" x="710" y="155.33333333333334" width="103.33333333333337" height="103.33333333333334"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Ti2-EJ-rlH" secondAttribute="height" multiplier="1:1" id="7nv-cB-YCL"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="biackiss_gate3_sword"/>
+                                    </button>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILT-Hi-sXK">
+                                        <rect key="frame" x="396.33333333333331" y="300" width="103.33333333333331" height="103.66666666666669"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ILT-Hi-sXK" secondAttribute="height" multiplier="1:1" id="7xI-CF-gVm"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="biackiss_gate3_sword"/>
+                                    </button>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJu-kA-f1N">
+                                        <rect key="frame" x="239.33333333333334" y="82.666666666666657" width="103.66666666666666" height="103.66666666666666"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="biackiss_gate3_sword"/>
+                                    </button>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5S-d4-DZs">
+                                        <rect key="frame" x="553" y="82.666666666666657" width="103.66666666666663" height="103.66666666666666"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="biackiss_gate3_sword"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Ti2-EJ-rlH" firstAttribute="height" secondItem="2sa-tH-Of2" secondAttribute="height" multiplier="0.25" id="0MS-1O-gIr"/>
+                                    <constraint firstItem="G4B-Jm-P87" firstAttribute="centerY" secondItem="2sa-tH-Of2" secondAttribute="centerY" id="Cy7-7p-Gga"/>
+                                    <constraint firstItem="2sa-tH-Of2" firstAttribute="leading" secondItem="2df-oS-Dcn" secondAttribute="leading" id="DDV-Hr-DV7"/>
+                                    <constraint firstItem="G4B-Jm-P87" firstAttribute="centerX" secondItem="2sa-tH-Of2" secondAttribute="centerX" multiplier="0.3" id="DgJ-Ua-B6o"/>
+                                    <constraint firstAttribute="bottom" secondItem="2sa-tH-Of2" secondAttribute="bottom" id="Ely-jD-x37"/>
+                                    <constraint firstItem="9JC-nJ-0uO" firstAttribute="centerY" secondItem="2sa-tH-Of2" secondAttribute="centerY" multiplier="0.3" id="Gbn-pB-8o7"/>
+                                    <constraint firstAttribute="trailing" secondItem="2sa-tH-Of2" secondAttribute="trailing" id="I5I-2h-N5E"/>
+                                    <constraint firstItem="BYs-vq-zIm" firstAttribute="width" secondItem="BYs-vq-zIm" secondAttribute="height" multiplier="1:1" id="I5z-rz-Yc6"/>
+                                    <constraint firstItem="ILT-Hi-sXK" firstAttribute="centerY" secondItem="2sa-tH-Of2" secondAttribute="centerY" multiplier="1.7" id="Jdv-nd-qrV"/>
+                                    <constraint firstItem="yJu-kA-f1N" firstAttribute="width" secondItem="yJu-kA-f1N" secondAttribute="height" multiplier="1:1" id="LvR-Aq-icw"/>
+                                    <constraint firstItem="yJu-kA-f1N" firstAttribute="height" secondItem="2sa-tH-Of2" secondAttribute="height" multiplier="0.25" id="O6q-Dk-A5k"/>
+                                    <constraint firstItem="ufu-Ld-DBQ" firstAttribute="centerY" secondItem="2sa-tH-Of2" secondAttribute="centerY" multiplier="1.35" id="P2m-X4-ct1"/>
+                                    <constraint firstItem="ufu-Ld-DBQ" firstAttribute="width" secondItem="ufu-Ld-DBQ" secondAttribute="height" multiplier="1:1" id="TqF-l6-EBz"/>
+                                    <constraint firstItem="ufu-Ld-DBQ" firstAttribute="height" secondItem="2sa-tH-Of2" secondAttribute="height" multiplier="0.25" id="W1E-J2-mpZ"/>
+                                    <constraint firstItem="Ti2-EJ-rlH" firstAttribute="centerX" secondItem="2sa-tH-Of2" secondAttribute="centerX" multiplier="1.7" id="WW1-DT-z7X"/>
+                                    <constraint firstItem="Ti2-EJ-rlH" firstAttribute="centerY" secondItem="2sa-tH-Of2" secondAttribute="centerY" id="YQa-GZ-ShU"/>
+                                    <constraint firstItem="C5S-d4-DZs" firstAttribute="width" secondItem="C5S-d4-DZs" secondAttribute="height" multiplier="1:1" id="ZWN-qc-p8i"/>
+                                    <constraint firstItem="C5S-d4-DZs" firstAttribute="height" secondItem="2sa-tH-Of2" secondAttribute="height" multiplier="0.25" id="b80-3u-Wky"/>
+                                    <constraint firstItem="9JC-nJ-0uO" firstAttribute="centerX" secondItem="2sa-tH-Of2" secondAttribute="centerX" id="bxq-P5-fSv"/>
+                                    <constraint firstItem="ILT-Hi-sXK" firstAttribute="height" secondItem="2sa-tH-Of2" secondAttribute="height" multiplier="0.25" id="cc8-mO-eq1"/>
+                                    <constraint firstItem="C5S-d4-DZs" firstAttribute="centerY" secondItem="2sa-tH-Of2" secondAttribute="centerY" multiplier="0.65" id="dL2-hZ-pZS"/>
+                                    <constraint firstItem="ufu-Ld-DBQ" firstAttribute="centerX" secondItem="2sa-tH-Of2" secondAttribute="centerX" multiplier="0.65" id="diI-pu-dcT"/>
+                                    <constraint firstItem="ILT-Hi-sXK" firstAttribute="centerX" secondItem="2sa-tH-Of2" secondAttribute="centerX" id="ehM-iU-BRi"/>
+                                    <constraint firstItem="C5S-d4-DZs" firstAttribute="centerX" secondItem="2sa-tH-Of2" secondAttribute="centerX" multiplier="1.35" id="l2S-0g-iiQ"/>
+                                    <constraint firstItem="2sa-tH-Of2" firstAttribute="top" secondItem="2df-oS-Dcn" secondAttribute="top" id="l91-bt-WNd"/>
+                                    <constraint firstItem="yJu-kA-f1N" firstAttribute="centerY" secondItem="2sa-tH-Of2" secondAttribute="centerY" multiplier="0.65" id="mZT-JC-SX6"/>
+                                    <constraint firstItem="BYs-vq-zIm" firstAttribute="centerY" secondItem="2sa-tH-Of2" secondAttribute="centerY" multiplier="1.35" id="v2t-Yu-Mkj"/>
+                                    <constraint firstItem="BYs-vq-zIm" firstAttribute="height" secondItem="2sa-tH-Of2" secondAttribute="height" multiplier="0.25" id="wab-t8-jcR"/>
+                                    <constraint firstItem="G4B-Jm-P87" firstAttribute="height" secondItem="2sa-tH-Of2" secondAttribute="height" multiplier="0.25" id="xWd-th-EWv"/>
+                                    <constraint firstItem="BYs-vq-zIm" firstAttribute="centerX" secondItem="2sa-tH-Of2" secondAttribute="centerX" multiplier="1.35" id="zLj-YZ-981"/>
+                                    <constraint firstItem="yJu-kA-f1N" firstAttribute="centerX" secondItem="2sa-tH-Of2" secondAttribute="centerX" multiplier="0.65" id="zMh-OQ-VCU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ptP-Zj-ymr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2df-oS-Dcn" firstAttribute="top" secondItem="ptP-Zj-ymr" secondAttribute="top" id="0Mz-SD-mAj"/>
+                            <constraint firstAttribute="trailing" secondItem="2df-oS-Dcn" secondAttribute="trailing" id="4rt-fz-P7M"/>
+                            <constraint firstAttribute="bottom" secondItem="2df-oS-Dcn" secondAttribute="bottom" id="KxZ-hx-gPk"/>
+                            <constraint firstItem="9JC-nJ-0uO" firstAttribute="height" secondItem="2sa-tH-Of2" secondAttribute="height" multiplier="0.25" id="UDR-ij-2Xm"/>
+                            <constraint firstItem="2df-oS-Dcn" firstAttribute="leading" secondItem="dpf-bX-0nf" secondAttribute="leading" id="uRD-7M-8os"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fsv-5E-JJf"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="2sa-tH-Of2" id="Sb7-B2-vMO"/>
+                        <outlet property="eastButton" destination="Ti2-EJ-rlH" id="WO9-4p-TJk"/>
+                        <outlet property="northButton" destination="9JC-nJ-0uO" id="KtA-n4-4ow"/>
+                        <outlet property="northEastButton" destination="C5S-d4-DZs" id="05b-PX-hWq"/>
+                        <outlet property="northWestButton" destination="yJu-kA-f1N" id="b2O-kH-3bY"/>
+                        <outlet property="southButton" destination="ILT-Hi-sXK" id="0gs-JR-JLg"/>
+                        <outlet property="southEastButton" destination="BYs-vq-zIm" id="MsV-7p-gBO"/>
+                        <outlet property="southWestButton" destination="ufu-Ld-DBQ" id="bPv-0P-Zlb"/>
+                        <outlet property="westButton" destination="G4B-Jm-P87" id="hhG-iC-XkN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kj8-Mc-WWz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1469" y="61"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="biackiss_gate3_sword" width="61.666667938232422" height="76.666664123535156"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
